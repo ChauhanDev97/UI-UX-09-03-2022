@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vmax;
+    width: 100%;
+    height: 10vh;
+}
+
+.mnav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.mnav>ul {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.mnav>ul>li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0 1.5vmax;
+    list-style-type: none;
+    transition: 0.2s linear;
+}
+
+.mnav>ul>li:hover {
+    border-radius: 5px;
+    height: 80%;
+    background-color: #fafafa;
+    color: tomato;
+}
+
+nav>button {
+    cursor: pointer;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 20vmax;
+    padding: 0.8vmax 2vmax;
+    background: transparent;
+    font-weight: 500;
+    transition: 0.2s linear;
+}
+
+nav>button:hover {
+    border: none;
+    background-color: tomato;
+    color: #ffff;
+}
+
+section {
+    width: 90%;
+    height: 83%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.on {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1vmax 1vmax;
+    width: 40%;
+    height: inherit;
+}
+
+.on>h1 {
+    color: #0D7192;
+    font-size: 42px;
+}
+
+.on>p {
+    color: rgb(126, 126, 126);
+    padding-bottom: 1.8vmax;
+    line-height: 1.8;
+    font-size: 13px;
+    width: 96%;
+}
+
+.on>.btn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn>button {
+    cursor: pointer;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 20vmax;
+    padding: 1vmax 2vmax;
+    background: transparent;
+    font-weight: 500;
+    transition: 0.2s linear;
+}
+
+.btn>button:hover {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: tomato;
+    color: #ffff;
+}
+
+.tw {
+    cursor: pointer;
+    border-radius: 5px;
+    width: 25%;
+    overflow: hidden;
+    height: 75%;
+    overflow: hidden;
+}
+
+.tw>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 2s ease-in-out;
+}
+
+.tw>img:hover {
+    transform: scale(1.2);
+}
